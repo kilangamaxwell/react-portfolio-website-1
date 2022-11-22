@@ -1,0 +1,5 @@
+#testimonials {
+  background: linear-gradient(to top left, #25191c, transparent);
+  filter: brightness(100%);
+  background-image: url(../../assets/texture2.jpg);
+}

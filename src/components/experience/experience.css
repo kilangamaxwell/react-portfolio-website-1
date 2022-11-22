@@ -1,0 +1,77 @@
+.experience__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.experience__container > div {
+  background: #7a3336;
+  padding: 2.4rem 2.5rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+  text-align: center;
+}
+
+.experience__container > div:hover {
+  background: transparent;
+  border-color: var(--color-primary);
+  cursor: default;
+}
+
+.experience__container > div h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #be8d90;
+}
+
+.experience__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 1rem;
+  text-align: center;
+}
+
+.experience__details {
+  display: flex;
+  gap: 1rem;
+  margin: auto;
+}
+
+.experience__details-icons {
+  margin-top: 6px;
+  color: #cb5f66;
+}
+
+/* =========================== MEDIA QUERIES (MEDIUM DEVICES aka TABLETS) ================================== */
+
+@media screen and (max-width: 1024px) {
+  .experience__container {
+    grid-template-columns: 1fr;
+  }
+
+  .experience__container > div {
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto;
+  }
+
+  .experience__content {
+    padding: 1rem;
+
+    gap: 1rem;
+  }
+}
+
+/* =========================== MEDIA QUERIES (SMALL DEVICES aka MOBILE PHONES) ================================== */
+
+@media screen and (max-width: 600px) {
+  .experience__container {
+    gap: 1rem;
+  }
+
+  .experience__container > div {
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+}
