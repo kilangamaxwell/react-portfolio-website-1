@@ -18,18 +18,16 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG2} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Web Design & Development</h3>
+          <h4>Client: LIT-RFID</h4>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn">
-              GitHub
-            </a>
             <a
               href="https://lit-rfid.com/"
-              className="btn btn-primary"
+              className="btn-lit"
               target="_blank"
               rel="noreferrer"
             >
-              Live Demo
+              Live Site
             </a>
           </div>
         </article>
@@ -38,18 +36,16 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG1} alt="" className="img1" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Web Design & Development</h3>
+          <h4>Client: IPS Global Projects</h4>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn">
-              GitHub
-            </a>
             <a
               href="https://ips-globalprojects.ca/"
-              className="btn btn-primary"
+              className="btn-lit"
               target="_blank"
               rel="noreferrer"
             >
-              Live Demo
+              Live Site
             </a>
           </div>
         </article>
@@ -58,7 +54,8 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG4} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>E-commerce Product Inventory</h3>
+          <h4>Personal Project</h4>
           <div className="portfolio__item-cta">
             <a href="https://github.com/krmaxwell88/e-comm-app" className="btn">
               GitHub
@@ -69,7 +66,7 @@ const Portfolio = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Live Demo
+              In Progress
             </a>
           </div>
         </article>
@@ -78,7 +75,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG5} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Social Networking Site</h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com/krmaxwell88/merng" className="btn">
               GitHub
@@ -89,7 +86,7 @@ const Portfolio = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Live Demo
+              In Progress
             </a>
           </div>
         </article>
@@ -98,7 +95,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG3} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Project Management App</h3>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/krmaxwell88/PROJECTMGMTAPP"
@@ -112,7 +109,7 @@ const Portfolio = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Live Demo
+              In Progress
             </a>
           </div>
         </article>
@@ -121,7 +118,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG6} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Hotel Management App</h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com" className="btn">
               GitHub
@@ -132,7 +129,7 @@ const Portfolio = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Live Demo
+              In Progress
             </a>
           </div>
         </article>

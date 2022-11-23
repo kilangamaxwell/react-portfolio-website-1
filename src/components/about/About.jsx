@@ -2,7 +2,7 @@ import React from "react";
 import "./about.css";
 import hoody from "../../assets/roberto.jpg";
 import { FaAward } from "react-icons/fa";
-import { FiUsers } from "react-icons/fi";
+import { BsFillGearFill } from "react-icons/bs";
 import { VscFolderLibrary } from "react-icons/vsc";
 
 const About = () => {
@@ -22,31 +22,33 @@ const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <h5>Accomplishments</h5>
+              <small>2 client projects deployed</small>
             </article>
 
             <article className="about__card">
-              <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <BsFillGearFill className="about__icon" />
+              <h5>Experience</h5>
+              <small>2+ Years Working</small>
             </article>
 
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
-              <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <h5>Bonus</h5>
+              <small>Continuous site maintenance</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-            perferendis voluptatem accusantium dolor maxime eum in perspiciatis
-            maiores asperiores, reprehenderit, quod adipisci. Aperiam maxime,
-            illo cum reprehenderit ex ea unde?
+            Junior Fullstack Software Developer with competencies in design,
+            development, testing and database management of software systems.
+            Professional experience with working in various platforms and
+            programming languages. Conversant with modern development tools and
+            procedures. Highly capable of effective self-management as well as
+            in collaboration with productive teams.
           </p>
 
-          <a href="#contact" className="btn btn-primary">
+          <a href="#contact" className="btn about-btn">
             Let's Talk
           </a>
         </div>

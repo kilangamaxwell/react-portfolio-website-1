@@ -11,7 +11,7 @@
 }
 
 :root {
-  --color-bg: #161637;
+  --color-bg: #bc8b8d;
   --color-bg-variant: #06065be2;
   --color-primary: #8e3a3d;
   --primary-variant: #d31a24;
@@ -117,6 +117,46 @@ img {
   display: block;
   width: 100%;
   object-fit: cover;
+}
+
+.form-btn {
+  width: max-content;
+  display: inline-block;
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid #161637;
+  transition: var(--transition);
+  background: #161637;
+  color: #7575a3;
+  margin-left: 75%;
+  font-weight: bolder;
+}
+
+.about-btn {
+  width: max-content;
+  display: inline-block;
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid #0e335c;
+  transition: var(--transition);
+  background: #0e335c;
+  color: #bbbbf0;
+  margin-left: 75%;
+  font-weight: bolder;
+}
+
+.about-btn:hover {
+  background: var(--color-white);
+  color: var(--color-bg);
+  border-color: transparent;
+}
+
+.form-btn:hover {
+  background: var(--color-white);
+  color: var(--color-bg);
+  border-color: transparent;
 }
 
 /* =========================== MEDIA QUERIES (MEDIUM DEVICES aka TABLETS) ================================== */
